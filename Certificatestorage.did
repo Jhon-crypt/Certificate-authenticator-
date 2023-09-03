@@ -1,0 +1,5 @@
+service : {
+    "shared" : () -> async Text;
+    "uploadCertificate" : () -> async ();
+    "verifyCertificate" : () -> async ();
+}
