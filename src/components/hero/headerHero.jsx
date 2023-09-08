@@ -8,13 +8,18 @@ export default function HeaderHero() {
                 <div className="row align-items-center mb-12">
                     <div className="col-12 col-lg-6 mb-20 mb-lg-0">
                         <div className="mw-lg-md">
-                            <h2 className="mb-5 text-primary">Take care of your performance every day.</h2>
-                            <p className="lead text-muted lh-lg mb-6">Build a well-presented brand that everyone will love. Take care to develop resources continually and integrity them with previous projects.</p>
-                            <a className="btn btn-primary d-block d-md-inline-block mb-2 mb-md-0 mb-lg-0 me-md-4" href="#">Track your performance</a><a className="btn btn-dark d-block d-md-inline-block" href="#">Learn More</a>
+                            <h2 className="mb-5 text-primary"> Blockchain-Powered Credential Verification.</h2>
+                            <p className="lead text-muted lh-lg mb-6">
+                                Whether you are a student, an employer, or an
+                                institution seeking to streamline your verification processes or certify and validate credentials, our
+                                platform offers an efficient, Blockchain-Powered secure, and seamless experience.
+
+                            </p>
+                            <a className="btn btn-primary d-block d-md-inline-block mb-2 mb-md-0 mb-lg-0 me-md-4" href="#">Get Started</a><a className="btn btn-dark d-block d-md-inline-block" href="#">Learn More</a>
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 ms-auto">
-                        <img className="img-fluid" src="https://shuffle.dev/cronos-assets/images/example-scene.png" alt=""/>
+                        <img className="img-fluid" src="https://shuffle.dev/cronos-assets/images/example-scene.png" alt="" />
                     </div>
                 </div>
                 <div className="text-center">
@@ -26,7 +31,7 @@ export default function HeaderHero() {
                     </a>
                 </div>
             </div>
-            
+
 
         </>
 

@@ -1,5 +1,5 @@
 import { AiFillSafetyCertificate } from 'react-icons/ai'
-
+//
 export default function Header() {
 
     return (
@@ -12,7 +12,7 @@ export default function Header() {
                         <div className="d-flex align-items-center" style={{ fontSize: "32px" }}>
                             <b>
                             <span className="font-weight-bold text-black mr-3" style={{ color: "#006251" }}><AiFillSafetyCertificate /></span>
-                            <span className="font-weight-bold text-black"><span>Edu</span>-Verify</span>
+                            <span className="font-weight-bold text-black"><span style={{ color: "#006251" }}>Edu</span><span style={{ color: "#FBDC8E" }}>-Verify</span></span>
                             </b>
                         </div>
                     </a>
