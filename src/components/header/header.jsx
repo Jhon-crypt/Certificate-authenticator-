@@ -1,3 +1,5 @@
+import { AiFillSafetyCertificate } from 'react-icons/ai'
+
 export default function Header() {
 
     return (
@@ -7,7 +9,12 @@ export default function Header() {
             <nav className="position-relative navbar navbar-expand-lg navbar-light py-5">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src="https://shuffle.dev/cronos-assets/logos/cronos-logo.svg" alt="" width="132" />
+                        <div className="d-flex align-items-center" style={{ fontSize: "32px" }}>
+                            <b>
+                            <span className="font-weight-bold text-black mr-3" style={{ color: "#006251" }}><AiFillSafetyCertificate /></span>
+                            <span className="font-weight-bold text-black"><span>Edu</span>-Verify</span>
+                            </b>
+                        </div>
                     </a>
                     <button className="btn p-0 d-lg-none navbar-burger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
