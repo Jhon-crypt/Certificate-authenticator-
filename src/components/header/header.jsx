@@ -23,7 +23,6 @@ export default function Header() {
                     </button>
                     <ul className="collapse navbar-collapse d-none d-lg-flex position-absolute top-50 start-50 translate-middle navbar-nav" id="collapsibleNavbar">
                         <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#">Company</a></li>
                         <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
                         <li className="nav-item"><a className="nav-link" href="#">Testimonials</a></li>
                     </ul>

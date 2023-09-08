@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Header from './components/header/header'
 import HeaderHero from './components/hero/headerHero'
 import FeatureHero from './components/hero/featureHero'
-import FeatureHeroTwo from './components/hero/featureHeroTwo'
+//import FeatureHeroTwo from './components/hero/featureHeroTwo'
 import HowItWorks from "./components/hero/howItWorksHero"
 import CallToAction from './components/section/callToActionHero'
 import Footer from './components/footer/footer'
@@ -23,7 +23,7 @@ function App() {
 
       <FeatureHero />
 
-      <FeatureHeroTwo />
+      
 
       <HowItWorks />
 
